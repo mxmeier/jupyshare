@@ -10,6 +10,9 @@ JupyShare is perfect for two things
 1.  For freeing you up from the huge hassle of trying to debug jupyter notebooks with friends by taking screenshots or copy pasting.
 2.  For showing something cool to a friend without having to tell them to download your masterpiece:
 
+### Security
+Ngrok provides a tunnel to your notebook so you definitely do not want to share the complete link (with the token and everything) with the world because any random person would pretty much have access to your own localhost and start running code on jupyter. To kill the connection to your notebook just run jupyshare kill or close your notebook.
+
 ### Prerequisites
 
 The only thing necessary for JupyShare is ngrok.
